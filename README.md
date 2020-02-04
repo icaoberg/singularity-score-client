@@ -35,7 +35,20 @@ You will need to edit the script above to match your account on [SyLabs.io](http
 If you have the client installed and cannot build the image locally nor remotely, simply run
 
 ```
-singularity pull library://icaoberg/default/score-client
+singularity pull library://icaoberg/default/score-client:3.0.1
+```
+
+## Example
+If you read the documentation you will find the following basic example
+
+```
+bin/score-client url --object-id ddcdd044-adda-5f09-8849-27d6038f8ccd
+```
+
+When using the container the command above turns into
+
+```
+singularity run --app score /path/to/score-client_3.0.1.sif url --object-id ddcdd044-adda-5f09-8849-27d6038f8ccd
 ```
 
 ## Disclaimer
