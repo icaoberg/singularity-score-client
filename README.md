@@ -1,4 +1,4 @@
-# singularity-bedtools
+# singularity-score-client
 [![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/score-client)
 ![Release](https://img.shields.io/badge/release-v2.29.2-green.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-score-client.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-score-client)
